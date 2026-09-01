@@ -61,7 +61,7 @@ public class GameViewController {
 
                 if (arrow != null) gameField.drawArrow(arrow);
 
-                updateUI();
+                getUI();
 
                 // завершение игры по таймеру
                 if (gameController.getTimeLeft() <= 0 && flag) {
@@ -128,7 +128,7 @@ public class GameViewController {
 
         pauseBtn.setText("Пауза");
 
-        updateUI();
+        getUI();
     }
 
     @FXML
@@ -159,7 +159,7 @@ public class GameViewController {
             pauseBtn.setText("Пауза");
         }
 
-        updateUI();
+        getUI();
     }
 
     @FXML
@@ -172,11 +172,11 @@ public class GameViewController {
             arrow = new Arrow(100, 280, 70, 10);
             arrow.start();
 
-            updateUI();
+            getUI();
         }
     }
 
-    private void updateUI() {
+    private void getUI() {
         pointValue.setText(String.valueOf(gameController.getState().getPoint()));
         shotValue.setText(String.valueOf(gameController.getState().getShot()));
         recordValue.setText(String.valueOf(gameController.getState().getRecordPoint()));
@@ -209,7 +209,7 @@ public class GameViewController {
 
         pauseBtn.setText("Пауза");
 
-        updateUI();
+        getUI();
 
         System.out.println("Game Over (time)");
     }

@@ -6,13 +6,13 @@
     font-family: 'Press Start 2P';
 }
 
-/* ─── ROOT ─────────────────────────────────── */
+/*  ROOT */
 .root {
     -fx-background-color: #1a1020;
     -fx-font-family: 'Press Start 2P', monospace;
 }
 
-/* ─── SIDEBAR PANEL ────────────────────────── */
+/*  SIDEBAR PANEL*/
 #sidePanel {
     -fx-background-color: #1a1020;
     -fx-border-color: #6b3fa0 #3d2260 #3d2260 #6b3fa0;
@@ -23,7 +23,7 @@
     -fx-pref-width: 240;
 }
 
-/* ─── SECTION BLOCK ────────────────────────── */
+/*SECTION BLOCK  */
 .stat-block {
     -fx-background-color: #2a1840;
     -fx-border-color: #4a2a7a;
@@ -32,7 +32,7 @@
     -fx-spacing: 4;
 }
 
-/* ─── LABELS: CATEGORY HEADER ──────────────── */
+/* LABELS: CATEGORY HEADER */
 .label-header {
     -fx-font-family: 'Press Start 2P', monospace;
     -fx-font-size: 10px;
@@ -40,7 +40,7 @@
     -fx-wrap-text: true;
 }
 
-/* ─── LABELS: VALUE ────────────────────────── */
+/* LABELS: VALUE */
 .label-value {
     -fx-font-family: 'Press Start 2P', monospace;
     -fx-font-size: 20px;
@@ -48,14 +48,14 @@
     -fx-effect: dropshadow(one-pass-box, #c89000, 0, 0, 2, 2);
 }
 
-/* ─── DIVIDER ───────────────────────────────── */
+/*  DIVIDER */
 .pixel-divider {
     -fx-border-color: transparent transparent #4a2a7a transparent;
     -fx-border-width: 0 0 2 0;
     -fx-padding: 0 0 6 0;
 }
 
-/* ─── BUTTONS ───────────────────────────────── */
+/* BUTTONS  */
 .btn-pixel {
     -fx-font-family: 'Press Start 2P', monospace;
     -fx-font-size: 10px;
@@ -118,17 +118,17 @@
     -fx-translate-y: 2;
 }
 
-/* ─── RECORD label ──────────────────────────── */
+/* RECORD label */
 #recordValue {
     -fx-text-fill: #60e0a0;
 }
 
-/* ─── TIME label ────────────────────────────── */
+/* TIME label */
 #timeValue {
     -fx-text-fill: #60c0ff;
 }
 
-/* ─── MENU SCREEN ───────────────────────────────── */
+/*  MENU SCREEN  */
 #menuRoot {
     -fx-background-color: #1a1020;
 }
@@ -137,7 +137,7 @@
     -fx-padding: 60 40 60 40;
 }
 
-/* ─── GAME OVER SCREEN ──────────────────────────── */
+/* GAME OVER SCREEN  */
 #gameOverRoot {
     -fx-background-color: #1a1020;
 }
